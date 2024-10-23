@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import java.util.logging.Logger;
 
 public class StartChrome {
+    /** Add the url of the page you want to do actions in. */
     private static final String URL_TO_OPEN = "WHERE_TO?";
 
     @Test
@@ -23,8 +24,14 @@ public class StartChrome {
         WebDriver driver = new ChromeDriver(options);
         driver.get(URL_TO_OPEN);
 
-        /** Maximize the window   */
+        /** Maximize the window to see it in full screen */
         driver.manage().window().maximize();
+
+        /** Add your actions here (README links for help) */
+
+
+        /** End of your actions */
+
         closeChrome(driver);
     }
 
