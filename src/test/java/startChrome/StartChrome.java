@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 
 public class StartChrome {
     /** Add the url of the page you want to do actions in. */
-    private static final String URL_TO_OPEN = "WHERE_TO?";
+    private static final String URL_TO_OPEN = "https://paokf.gr";
 
     @Test
     public static void openCloseDriver(){
