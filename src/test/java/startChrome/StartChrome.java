@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 
 public class StartChrome {
     /** Add the url of the page you want to do actions in. */
-    private static final String URL_TO_OPEN = "WHERE_TO?";
+    private static final String URL_TO_OPEN = "https://teamviewer.atlassian.net/jira/TEAM-53978";
 
     @Test
     public static void openCloseDriver(){
